@@ -15,12 +15,12 @@ randomplot <- function(n, dist=c("normal", "uniform")){
   
   if(dist == "normal"){
     #hist(rnorm(n))
-    ggplot(df1, aes(x=weight)) + geom_histogram()
+    ggplot(df1) + geom_histogram()
   }
   
   if(dist == "uniform"){
     #hist(runif(n))
-    ggplot(df2, aes(x=weight)) + geom_histogram()
+    ggplot(df2) + geom_histogram()
   }
   
   #return nothing
