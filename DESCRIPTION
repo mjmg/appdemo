@@ -10,4 +10,5 @@ Description: This package is an example of an OpenCPU App. It demonstrates
 License: Apache2
 LazyData: true
 Depends:
-    shiny
+    shiny,
+    ggplot2
